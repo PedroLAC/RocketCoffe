@@ -16,7 +16,7 @@
 
 body {
   background-color: var(--background);
-  background-image: url("./RocketCoffe\ -\ Assets/blur-2.png"), url("./RocketCoffe\ -\ Assets/blur-1.png");
+  background-image: url("./assets/blur-2.png"), url("./assets/blur-1.png");
   background-repeat: no-repeat, no-repeat;
   background-position: right top, left bottom;
 }
