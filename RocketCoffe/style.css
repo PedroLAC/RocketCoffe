@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+:root {
+  --background: #000;
+  --text-color: #FFF;
+  --button: #8257E5;
+  --border: #29292E;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--background);
+  background-image: url("./RocketCoffe\ -\ Assets/blur-2.png"), url("./RocketCoffe\ -\ Assets/blur-1.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, left bottom;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 50px;
+}
+
+.logo {
+  width: 45px;
+}
+
+.navbar {
+  display: flex;
+  gap: 50px;
+}
+
+.navbar-item {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.navbar-item:hover {
+  color: var(--button);
+}
+
+.navbar-button {
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  color: var(--text-color);
+  background: none;
+  padding: 10px 35px;
+  width: 250px;
+  height: 45px;
+  border-color: var(--button);
+  border-radius: 5px;
+}
+
+.navbar-button:hover {
+  background-color: var(--button);
+}
+
+.conteudo {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudo-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudo-texto-coffe {
+  font-family: 'Manrope', sans-serif;
+  color: var(--text-color);
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.conteudo-texto-code {
+  font-family: sans-serif;
+  font-weight: 700;
+  color: var(--background);
+  font-size: 115px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--button);
+  -webkit-text-fill-color: var(--background);
+}
